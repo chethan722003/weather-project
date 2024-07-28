@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+#suggestions {
+    width: 100%;
+    z-index: 1000;
+}
+
+#suggestions li {
+    cursor: pointer;
+}
+
+body.dark-mode {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+body.dark-mode .card {
+    background-color: #454d55;
+    border-color: #454d55;
+}
+
+body.dark-mode .form-control {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+body.dark-mode .list-group-item {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.weather-icon {
+    font-size: 48px;
+}
+
+.weather-details {
+    font-size: 18px;
+}
